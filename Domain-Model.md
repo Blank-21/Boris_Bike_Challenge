@@ -8,29 +8,29 @@ User stories:
 4. As a user, so i can find customers, i want to search for my customers by their surnames
 
 user story 1:
-|object| messages
+|object| messages|
 -----------------
-|Person| view_a_bike
-|bike| available_bike
+|Person| view_a_bike|
+|bike| available_bike|
 |docking station|
 
 user story 2:
-|object| messages
+|object| messages|
 -----------------
-|person| use_a_bike
-|bike| available_bike
-|docking station| release_a_bike
+|person| use_a_bike|
+|bike| available_bike|
+|docking station| release_a_bike|
 
 user story 3:
-|object| messages
+|object| messages|
 ------------------
-|person| return_a_bike
+|person| return_a_bike|
 |bike|
-|docking station| receive_a_bike
-|docking station| available_space
+|docking station| receive_a_bike|
+|docking station| available_space|
 
 user story 4:
-|object| messages
+|object| messages|
 ------------------
 |user|
-|customer| find_by_surname
+|customer| find_by_surname|
