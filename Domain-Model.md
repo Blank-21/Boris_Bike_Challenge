@@ -14,7 +14,7 @@ User stories:
 |bike| available_bike|
 |docking station|
 
-**person** -> *view_a_bike* -> *available_bike*
+**person** -> *view_a_bike* -> *available_bike?* -> *true/false*
 
 2.
 |object| messages|
@@ -30,10 +30,9 @@ User stories:
 ------------------
 |person| return_a_bike|
 |bike|
-|docking station| receive_a_bike|
 |docking station| available_space|
 
-**person** -> *return_a_bike* -> **docking_station** -> *available_space* -> **docking_station** -> *receive_a_bike*
+**person** -> *return_a_bike* -> **docking_station** -> *available_space?* -> *true/false*
 
 4.
 |object| messages|
