@@ -10,9 +10,11 @@ User stories:
 1.
 |object| messages|
 -----------------
-|Person| view_a_bike|
+|person| view_a_bike|
 |bike| available_bike|
 |docking station|
+
+**person** -> *view_a_bike* -> *available_bike*
 
 2.
 |object| messages|
@@ -20,6 +22,8 @@ User stories:
 |person| use_a_bike|
 |bike| available_bike|
 |docking station| release_a_bike|
+
+**bike** -> *available_bike* -> **docking_station** -> *release_a_bike* -> **person** -> *use_a_bike*
 
 3.
 |object| messages|
@@ -29,8 +33,12 @@ User stories:
 |docking station| receive_a_bike|
 |docking station| available_space|
 
+**person** -> *return_a_bike* -> **docking_station** -> *available_space* -> **docking_station** -> *receive_a_bike*
+
 4.
 |object| messages|
 ------------------
 |user||
 |customer| find_by_surname|
+
+**customer** -> *find_by_surname* -> **user**
